@@ -43,7 +43,11 @@ int action(int num,int arr[][3],int user){
         }
         
     }
-    return 0;
+    // return 0;
+                if(user==1 && arr[0][1]=='O'){
+                // if(user==1 && arr[1][1]=='O'){
+                    // if(user==1 && arr[2][1]=='O'){
+                        return 1;}
 }
 int main()
 {
@@ -58,11 +62,17 @@ cin>>user;
 
 
 cout<<action(num,arr,user);}}
-    for(int i=0;i<3;i++){
-        for(int j=0;j<3;j++){
+    // for(int i=0;i<3;i++){
+    //     for(int j=0;j<3;j++){
             //winner or trie one more time or tie
-            if(user==1 && arr[0][1]=='O')
-        cout<<arr[i][j]<<"|";
-}
+            // if(user==1 && arr[0][1]=='O'){
+            //     // if(user==1 && arr[1][1]=='O'){
+            //         // if(user==1 && arr[2][1]=='O'){
+            //             cout<<"User 1 wins";
+            //         // }
+            //     // }
+            // }
+        // cout<<arr[i][j]<<"|";
+// }
 }
 }
